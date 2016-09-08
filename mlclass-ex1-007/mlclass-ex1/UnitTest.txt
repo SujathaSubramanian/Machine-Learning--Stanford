@@ -1,0 +1,17 @@
+data = load('ex1data1.txt');
+X= data(:,1);
+y=data(:,2);
+m= length(y);
+X = [ones(m,1) X];
+theta = [1.5;2];
+J = computeCost(X,y,theta)
+J = 81.069
+
+
+X = [ 1 5;1 2; 1 4; 1 5;];
+y =[ 1;6;4;2];
+theta = [0;0];
+alpha = 0.01;
+iteration = 100
+
+

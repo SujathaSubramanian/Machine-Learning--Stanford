@@ -1,0 +1,6 @@
+C:\\Users\\sujathas\\OneDrive\\Coursera\\MachineLearning - Stanford University\\mlclass-ex6-007\\mlclass-ex6
+
+
+C:\Users\sujathas\OneDrive\Coursera\MachineLearning - Stanford University\mlclass-ex7-007\mlclass-ex7
+
+	model= svmTrain(X, y, .01, @(x1, x2) gaussianKernel(x1, x2, .01)); 
